@@ -25,6 +25,7 @@ public class Grade3 extends Grade1 {
 		return volunteer;
 	}
 
+	@Override
 	public void setVolunteer(int volunteer) {
 		if ( volunteer >= 40 ) {
 			this.volunteer = 1;
@@ -48,7 +49,7 @@ public class Grade3 extends Grade1 {
 		System.out.println("최종성적\t\t" + String.format("%.2f", lastScore));
 	}
 	
-	
+	@Override
 	public void allGrade() {
 		System.out.println();
 		System.out.println("============================");

@@ -14,6 +14,7 @@ public class Grade2 extends Grade1 {
 		return volunteer;
 	}
 
+	@Override
 	public void setVolunteer(int volunteer) {
 		if ( volunteer >= 40 ) {
 			this.volunteer = 1;

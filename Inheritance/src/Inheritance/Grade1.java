@@ -13,6 +13,7 @@ public class Grade1 {
 	double inAwards;
 	double aveTotal;
 	static double gradeTotal;
+	int volunteer;
 	
 	public Grade1(String studentName, int studentNum) {
 		this.studentName = studentName;
@@ -74,6 +75,14 @@ public class Grade1 {
 		} else {
 			this.outAwards = 0;
 		}
+	}
+	
+	public void setVolunteer(int volunteer) {
+
+	}
+
+	public void allGrade() {
+	
 	}
 	
 	public void addPlusPoint() {
