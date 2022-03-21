@@ -1,4 +1,4 @@
-package ch03_1;
+package Inheritance;
 
 import java.util.ArrayList;
 

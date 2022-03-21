@@ -1,4 +1,4 @@
-package ch03_1;
+package Inheritance;
 
 public class Grade3 extends Grade2 {
 	
