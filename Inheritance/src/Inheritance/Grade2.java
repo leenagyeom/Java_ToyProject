@@ -34,6 +34,7 @@ public class Grade2 extends Grade1 {
 		}
 	}
 	
+	@Override
 	public void addPlusPoint() {
 		double lastScore;
 		
