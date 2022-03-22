@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Grade3 extends Grade1 {
+public class Grade3 extends Grade {
 	private int volunteer;
 	
 	public Grade3 (String studentName, int studentNum) {
@@ -9,6 +9,7 @@ public class Grade3 extends Grade1 {
 		gradeRatio = 0.5;
 	}
 	
+	// 교외수상
 	public double getOutAwards() {
 		return outAwards;
 	}
@@ -21,6 +22,7 @@ public class Grade3 extends Grade1 {
 		}
 	}
 	
+	// 봉사시간
 	public int getVolunteer() {
 		return volunteer;
 	}
@@ -34,6 +36,7 @@ public class Grade3 extends Grade1 {
 		}
 	}
 	
+	// 교외수상 + 봉사시간 출력
 	@Override
 	public void addPlusPoint() {
 		double lastScore;
@@ -49,6 +52,7 @@ public class Grade3 extends Grade1 {
 		System.out.println("최종성적\t\t" + String.format("%.2f", lastScore));
 	}
 	
+	// 전 학년 성적 출력
 	@Override
 	public void allGrade() {
 		System.out.println();

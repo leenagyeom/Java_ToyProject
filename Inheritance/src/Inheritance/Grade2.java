@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Grade2 extends Grade1 {
+public class Grade2 extends Grade {
 	
 	private int volunteer;
 	
@@ -10,6 +10,7 @@ public class Grade2 extends Grade1 {
 		this.gradeRatio = 0.3;
 	}
 
+	// 봉사점수
 	public int getVolunteer() {
 		return volunteer;
 	}
@@ -23,6 +24,7 @@ public class Grade2 extends Grade1 {
 		}
 	}
 	
+	// 교외수상
 	public double getOutAwards() {
 		return outAwards;
 	}
@@ -35,6 +37,7 @@ public class Grade2 extends Grade1 {
 		}
 	}
 	
+	// 교외수상 + 봉사시간 출력
 	@Override
 	public void addPlusPoint() {
 		double lastScore;
